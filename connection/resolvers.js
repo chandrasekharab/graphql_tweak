@@ -21,6 +21,14 @@ export const resolvers = {
                lastName: input.lastName
            });
 
+           newFrd.id = newFrd._id;
+
+           return new Promise((resolve, object) => {
+               newFrd.save(err => {
+                   if (err) reject(err);
+                   else resolve(newFrd);
+               });
+           });
         }
     }
 }

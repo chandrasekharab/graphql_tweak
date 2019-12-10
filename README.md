@@ -2,6 +2,10 @@
 
 This project explores graphql concepts and using mongodb.
 
+# Prerequisites 
+
+Make sure to setup mongodb and setup friends db
+
 # Steps
 
 1. Clone project
